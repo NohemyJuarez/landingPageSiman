@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones Siman</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header con navegación y barra de búsqueda -->
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="imagenes/Logo_Siman.png" alt="Siman">
+            </div>
+            <form class="search-bar">
+                <input type="text" placeholder="Buscar promociones, productos...">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="section-bg">
+        <div class="hero-content">
+            <h1>¡Bienvenidos a las Mejores Ofertas de Siman!</h1>
+            <p>Descubre nuestras promociones exclusivas en moda, accesorios y productos para el hogar.</p>
+            <a href="#promociones" class="cta-button">¡Explora Ahora!</a>
+        </div>
+    </section>
+
+    <!-- Sección de Promociones -->
+
+    <section id="promociones">
+        <h2>Promociones Exclusivas</h2>
+        <div class="promo-grid-horizontal">
+            <div class="promo-item">
+                <div class="promo-img-container">
+                    <img src="imagenes/moda_1.jpeg" alt="Descuentos en Moda">
+                    <img src="imagenes/moda_2.jpg" alt="Descuentos en Moda">
+                </div>
+                <h3>Moda</h3>
+                <p>Hasta 50% de descuento en ropa de temporada.</p>
+                <a href="#" class="promo-link">Ver más</a>
+            </div>
+            <div class="promo-item">
+                <div class="promo-img-container">
+                    <img src="imagenes/accesorios_1.jpg" alt="Descuentos en Accesorios">
+                    <img src="imagenes/accesorios_2.jpg" alt="Descuentos en Accesorios">
+                </div>
+                <h3>Accesorios</h3>
+                <p>Descuentos en accesorios exclusivos.</p>
+                <a href="#" class="promo-link">Ver más</a>
+            </div>
+            <div class="promo-item">
+                <div class="promo-img-container">
+                    <img src="imagenes/tecnologia_1.jpg" alt="Descuentos en Productos tecnologicos">
+                    <img src="imagenes/tecnologia_2.jpg" alt="Descuentos en Productos tecnologicos">
+                </div>
+                <h3>Tecnología</h3>
+                <p>Ofertas especiales en productos de tecnología.</p>
+                <a href="#" class="promo-link">Ver más</a>
+            </div>
+            <div class="promo-item">
+                <div class="promo-img-container">
+                    <img src="imagenes/escolar_1.jpg" alt="Descuentos en Productos escolares">
+                    <img src="imagenes/escolar_2.jpg" alt="Descuentos en Productos escolares">
+                </div>
+                <h3>Escolar</h3>
+                <p>Increibles ofertas en productos escolares.</p>
+                <a href="#" class="promo-link">Ver más</a>
+            </div>
+            <div class="promo-item">
+                <div class="promo-img-container">
+                    <img src="imagenes/hogar_1.jpg" alt="Descuentos en Productos del Hogar">
+                    <img src="imagenes/hogar_2.jpg" alt="Descuentos en Productos del Hogar">
+                </div>
+                <h3>Hogar</h3>
+                <p>Ofertas especiales en productos para tu hogar.</p>
+                <a href="#" class="promo-link">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Eventos -->
+    <section id="eventos" class="section-bg-eventos">
+        <div class="eventos-content">
+            <h2>Próximos Eventos</h2>
+            <div class="evento-item">
+                <h3>Black Friday</h3>
+                <p>Las mejores ofertas del año te esperan en nuestro Black Friday.</p>
+            </div>
+            <div class="evento-item">
+                <h3>Venta Nocturna</h3>
+                <p>No te pierdas nuestras ofertas especiales durante la Venta Nocturna.</p>
+            </div>
+            <a href="#" class="cta-button">Ver Todos los Eventos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <div class="contact-info">
+            <p>Teléfono: +503 2298-3777</p>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/simanelsalvador/" target="_blank">Facebook</a>
+                <a href="https://instagram.com/almacenessiman" target="_blank">Instagram</a>
+                <a href="https://twitter.com/#!/simanelsalvador" target="_blank">Twitter</a>
+            </div>
+        </div>
+        <form action="#">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Siman El Salvador. Todos los derechos reservados.</p>
+        <p><a href="https://github.com/NohemyJuarez/landingPageSiman.git">Ver código en GitHub</a></p>
+    </footer>
+
+</body>
+</html>
